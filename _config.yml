@@ -1,15 +1,15 @@
-title: example.com
-description: "Satellite - jekyll blog theme"
+title: 코드디미방
+description: "전자회로, 코딩, 컴퓨터 등"
 logo_img: "/assets/img/favicon.webp"
 profile_img: "/assets/img/profile.webp"
 
 # Social Links
-email: example@gmail.com
-github_username: github
-twitter_username: twitter
-instagram_username: instagram
-linkedin_username: linkedin
-facebook_username: facebook
+email: xingchen8837@gmail.com
+github_username: swallowlikeyoshi
+twitter_username: none
+instagram_username: swallowlikeyoshi
+linkedin_username: none
+facebook_username: none
 
 # External API
 giscus_repo: "byanko55/jekyll-theme-satellite"

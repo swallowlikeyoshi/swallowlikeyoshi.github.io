@@ -243,33 +243,33 @@
 .site-name {
   position:relative;
 
-  img, mark { transition:.5s ease; }
+  // img, mark { transition:.5s ease; }
   mark { 
     color:$color-wenge;
     word-break:break-word;
   }
 
-  img {
-    display:inline-block;
-    width:32px;
-    height:32px;
-    top:-4px;
-    left:0;
-    left:-40px;
-    position:absolute;
-    transform:rotateY(90deg);
-  }
+  // img {
+  //   display:inline-block;
+  //   width:32px;
+  //   height:32px;
+  //   top:-4px;
+  //   left:0;
+  //   left:-40px;
+  //   position:absolute;
+  //   transform:rotateY(90deg);
+  // }
 
-  &:hover {
-    mark { 
-      color:$color-rose;
-      margin-left:40px;
-    }
-    img { 
-      left:0;
-      transform:rotateY(360deg); 
-    }
-  }
+  // &:hover {
+  //   mark { 
+  //     color:$color-rose;
+  //     margin-left:40px;
+  //   }
+  //   img { 
+  //     left:0;
+  //     transform:rotateY(360deg); 
+  //   }
+  // }
 }
 
 .side-info {
