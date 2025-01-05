@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Code(VSC)에서 Arduino 개발환경 구축하기"
+title: "Visual Studio Code(비주얼 스튜디오 코드)에서 아두이노 개발환경 구축하기"
 date: "2025-01-03"
 thumbnail: "/assets/img/아두이노/image.png"
 tags:
@@ -12,7 +12,6 @@ tags:
 아두이노 IDE 버전 1.8 이하 사용시 VSC에서 동작하는 아두이노 익스텐션은 윈도우에 이미 설치된 아두이노 IDE를 VSC에서 편하게 쓸 수 있도록 연결해놓은 것에 불과했다. 아두이노 IDE가 2.x로 버전업하면서 내부적으로 arduino_cli.exe 파일을 이용한 방식으로 구조가 변경되었는데, 이로 인해 기존의 설치 방법을 이용하면 사용이 불가능하다.
 
 > 참고: [아두이노 포럼](https://forum.arduino.cc/t/vs-code-and-user-setting-for-arduino-ide/1064852/6){:target="_blank"}
-
 
 # 설치 방법
 ---
