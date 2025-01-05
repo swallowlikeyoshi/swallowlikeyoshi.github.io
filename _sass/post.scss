@@ -63,7 +63,7 @@
   margin:auto;
   padding:1rem 0;
   text-align:center;
-  backdrop-filter:blur(4px);
+  // backdrop-filter:blur(4px);
   box-shadow:0 16px 16px 8px rgba(31, 35, 46, .15);
   background-color:#fff;
 }
@@ -195,7 +195,7 @@ main {
   h2, .sh2 { font-size:1.375rem; }
   h3, .sh3 { font-size:1.125rem; }
 
-  p { text-align:justify; }
+  // p { text-align:justify; }
 
   u {
     color:$color-rose;
