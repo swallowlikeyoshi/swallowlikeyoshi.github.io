@@ -8,7 +8,7 @@
   font-size:1.25rem;
   font-weight:600;
   padding:0 0 4px 12px;
-  border-bottom:burlywood 2px solid;
+  border-bottom:$color-darkgreen 2px solid;
 
   svg { 
     width:16px;
@@ -41,10 +41,10 @@
     word-break:normal;
     line-height:150%;
 
-    a { 
-      animation:.5s ease-out 0s 1 slide;
-      cursor: pointer;
-    }
+    // a { 
+    //   animation:.5s ease-out 0s 1 slide;
+    //   cursor: pointer;
+    // }
 
     @keyframes slide {
       0% { transform:scaleY(0); }
@@ -53,7 +53,8 @@
   }
    
   .is-active-link{
-    color:indianred !important;
+    // color:indianred !important;
+    color:$color-darkgreen !important;
     font-weight:950;
   }
 }

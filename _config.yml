@@ -1,15 +1,15 @@
 title: 코드디미방
 description: "전자회로, 코딩, 컴퓨터 등"
 logo_img: "/assets/img/favicon.webp"
-profile_img: "/assets/img/profile.webp"
+profile_img: "/assets/img/profile.jpg"
 
 # Social Links
 email: xingchen8837@gmail.com
 github_username: swallowlikeyoshi
-twitter_username: none
+twitter_username:
 instagram_username: swallowlikeyoshi
-linkedin_username: none
-facebook_username: none
+linkedin_username:
+facebook_username:
 
 # External API
 giscus_repo: "byanko55/jekyll-theme-satellite"

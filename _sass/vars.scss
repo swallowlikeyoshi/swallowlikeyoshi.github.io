@@ -7,14 +7,20 @@
 // $sidebarwd: 18rem;
 // $contentwd: 54rem;
 
-$color-wenge: #000000;
-$color-beige: #9CD811;
+$color-brightgreen: #93F205;
+$color-darkgreen: #84D904;
+
+
+$color-wenge: #3A241A;
+$color-beige: $color-darkgreen;
 $color-darkbrown: #3A241A;
-$color-darkorange: #FFB135;
+$color-darkorange: $color-brightgreen;
 $color-rose: #FF524C;
 $color-aqua: #16AEF4;
 $sidebarwd: 18rem;
 $contentwd: 54rem;
+
+
 
 $mediawd: (
   mobile: 320px,
