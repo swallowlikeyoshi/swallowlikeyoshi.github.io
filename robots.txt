@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://swallowlikeyoshi.github.io/sitemap.xml

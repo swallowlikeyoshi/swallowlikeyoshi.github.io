@@ -2,6 +2,8 @@
 title: "Visual Studio Code(VSC)에서 Arduino 개발환경 구축하기"
 date: "2025-01-03"
 thumbnail: "/assets/img/아두이노/image.png"
+tags:
+    - Arduino
 ---
 
 # 개요
