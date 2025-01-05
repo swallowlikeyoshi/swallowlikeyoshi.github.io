@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>
     {% if page.url == "/index.html" %}
-        Home
+        코드디미방
     {% elsif page_type == "category" %}
         {{ category_title }}
     {% else %}
@@ -13,7 +13,7 @@
 {% seo %}
 
 <link rel="shortcut icon" type="image/png" href="{{ site.logo_img | prepend: site.baseurl }}">
-<style>
+<!-- <style>
 @font-face {
     font-family: 'Nunito Sans';
     font-style: normal;
@@ -40,20 +40,49 @@
     src: local('Lato'),
          url("{{ site.baseurl }}/assets/fonts/Lato-Regular.woff2") format("woff2");
 }
+</style> -->
+
+<style>
+    /*
+Copyright (c) 2021 Kil Hyung-jin, with Reserved Font Name Pretendard.
+https://github.com/orioncactus/pretendard
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+http://scripts.sil.org/OFL
+*/
+
+/* @font-face {
+	font-family: 'Pretendard Variable';
+	font-weight: 45 920;
+	font-style: normal;
+	font-display: swap;
+	src: url('{{ site.baseurl }}/assets/fonts/PretendardVariable.woff2') format('woff2-variations');
+} */
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 400;
+	font-display: swap;
+	src: local('Pretendard Regular'), url('{{ site.baseurl }}/assets/fonts/Pretendard-Regular.subset.woff2') format('woff2'), url('{{ site.baseurl }}/assets/fonts/Pretendard-Regular.subset.woff') format('woff');
+}
 </style>
 
-<style src="{{ '/assets/css/pretendardvariable.css' | prepend: site.baseurl }}"></style>
+<!-- <style src="{{ '/assets/css/pretendardvariable.css' | prepend: site.baseurl }}"></style> -->
 
 <script src="{{ '/assets/js/fontfaceobserver.js' | prepend: site.baseurl }}" type="text/javascript"></script>
 <script type="text/javascript">
-    const nunitoObserver = new FontFaceObserver('Nunito Sans');
-    const righteousObserver = new FontFaceObserver('Righteous');
-    const latoObserver = new FontFaceObserver('Lato');
+    // const nunitoObserver = new FontFaceObserver('Nunito Sans');
+    // const righteousObserver = new FontFaceObserver('Righteous');
+    // const latoObserver = new FontFaceObserver('Lato');
+    // const pretendardObserver = new FontFaceObserver('Pretendard Variable');
+    const pretendardObserver = new FontFaceObserver('Pretendard');
   
     Promise.all([
-        nunitoObserver.load(),
-        righteousObserver.load(),
-        latoObserver.load(),
+        // nunitoObserver.load(),
+        // righteousObserver.load(),
+        // latoObserver.load(),
+        pretendardObserver.load()
     ]).then(function(){
         document.documentElement.className += " fonts-loaded";
     });

@@ -1,6 +1,6 @@
 title: 코드디미방
 description: "전자회로, 코딩, 컴퓨터 등"
-logo_img: "/assets/img/favicon.webp"
+logo_img: "/assets/img/favicon.jpg"
 profile_img: "/assets/img/profile.jpg"
 
 # Social Links
@@ -51,3 +51,8 @@ defaults:
 kramdown:
   input: GFM
   hard_wrap: true
+
+url: "https://swallowlikeyoshi.github.io"
+sitemap:
+  changefreq: daily
+  priority: 0.5

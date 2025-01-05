@@ -15,9 +15,10 @@ gem "jekyll", ">= 3.9", "< 5.0"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-sitemap", "~> 1.3"
 end
 
-gem "jekyll-sitemap", "~> 1.3"
+
 gem "jekyll-seo-tag", "~> 2.6"
 gem "kramdown-parser-gfm", "~> 1.1.0"
 gem "webrick", "~> 1.7.0"
