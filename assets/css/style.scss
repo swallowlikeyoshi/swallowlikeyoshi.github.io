@@ -14,9 +14,9 @@ html, body {
 // }
 
 .fonts-loaded {
-  a, span, p { font-family:'Pretendard Variable'; }
-  h1, h2, h3 { font-family:'Pretendard Variable'; }
-  mark { font-family:'Pretendard Variable'; }
+  a, span, p { font-family:'Pretendard'; }
+  h1, h2, h3 { font-family:'Pretendard'; }
+  mark { font-family:'Pretendard'; }
 }
 
 // a { text-decoration:none; }
@@ -29,10 +29,10 @@ html, body {
 
 a { text-decoration:none; }
 a, span, p, h1, h2, h3, i { color:#3A241A; }
-a, span, p { font-family:'Pretendard Variable'; }
+a, span, p { font-family:'Pretendard'; }
 h1, h2, h3, mark {
   margin:0;
-  font-family:'Pretendard Variable';
+  font-family:'Pretendard';
 }
 
 mark { background-color:transparent; }
